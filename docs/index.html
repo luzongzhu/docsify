@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+</head>
+<body>
+  <div data-app id="main">加载中</div>
+  <script>
+    window.$docsify = {
+      el: '#main',
+      // 加载侧边栏
+      loadSidebar: true,
+      // 自定义加载侧边栏文件
+      loadSidebar: '侧边栏目录.md',
+      // 跳转页面自动回到页面顶部
+      auto2top: true,
+      // 入口文件改为 /首页.md
+      homepage: '首页.md',
+      // 侧边栏logo
+      //logo: '/logo.jpg',
+      // 侧边栏标题
+      name: '沃野无码中台',
+      // 显示顶部导航栏
+      loadNavbar: true,
+      // 自定义加载顶部导航栏文件
+      loadNavbar: '顶部导航栏.md',
+      // git仓库地址
+      repo: ''
+    }
+  </script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+</body>
+</html>
